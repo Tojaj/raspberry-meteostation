@@ -1,0 +1,8 @@
+# GPIO library for Raspberry Pi
+gpiozero
+# DHT11 - Humidity & Temperature Sensor
+Adafruit_DHT
+# OLED Display 128x64 I2C
+Adafruit-SSD1306
+# BMP180 - Barometric Pressure Sensor
+Adafruit-BMP
