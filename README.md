@@ -25,6 +25,8 @@ Output on console will be like:
 * First temperature is from DHT11 sensor, the second from BMP180.
 * OLED shows the temperature from BMP180.
 
+![Terminal](doc/terminal.png)
+
 
 Requirements
 ============
