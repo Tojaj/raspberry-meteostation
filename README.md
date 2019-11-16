@@ -4,6 +4,8 @@ Raspberry Meteostation
 A simple Raspberry Pi based meteostation with DHT11 & BMP180 sensors
 and OLED display SSD1306.
 
+![Photo](doc/photo.jpg)
+
 Usage
 =====
 
