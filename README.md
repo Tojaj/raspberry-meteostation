@@ -56,6 +56,24 @@ use of a python virtual environments. See next section of this readme.*
     pip install -r requirements.txt
 
 
+Wiring
+======
+
+Used Raspberry Pi GPIO pins:
+
+* **3.3V Power** - Red wire ([Physical pin 1](https://pinout.xyz/pinout/pin1_3v3_power#))
+* **GPIO 2 (SDA)** - Black wire ([Physical pin 3](https://pinout.xyz/pinout/pin3_gpio2#))
+** I2C Data
+* **GPIO 3 (SCL)** - White wire ([Physical pin 5](https://pinout.xyz/pinout/pin5_gpio3#))
+** I2C Clock
+* **Ground** - Grey wire ([Physical pin 6](https://pinout.xyz/pinout/ground#))
+* **GPIO 4** - Brown wire ([Physical pin 7](https://pinout.xyz/pinout/pin7_gpio4#))
+** DHT11 Humidity sensor data pin
+
+The 10k resistor is used as a pull up between VCC and DATA of DHT11.
+![DHT11 schema](doc/DHT11.png)
+
+
 Installation in virtual env
 ===========================
 
